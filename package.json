@@ -12,14 +12,14 @@
     "build-storybook": "storybook build"
   },
   "devDependencies": {
-    "@storybook/blocks": "8.3.7",
-    "@storybook/svelte": "8.3.7",
-    "@storybook/sveltekit": "8.3.7",
+    "@storybook/blocks": "8.4.0-beta.0",
+    "@storybook/svelte": "8.4.0-beta.0",
+    "@storybook/sveltekit": "8.4.0-beta.0",
     "@sveltejs/adapter-auto": "4.0.0",
     "@sveltejs/kit": "2.8.2",
     "@sveltejs/vite-plugin-svelte": "3.1.2",
     "bits-ui": "0.21.16",
-    "storybook": "8.3.7",
+    "storybook": "8.4.0-beta.0",
     "svelte": "4.2.19",
     "vite": "5.4.8"
   }
