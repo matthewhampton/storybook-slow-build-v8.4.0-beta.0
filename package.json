@@ -17,7 +17,6 @@
     "@storybook/blocks": "^8.6.7",
     "@storybook/svelte": "^8.6.7",
     "@storybook/sveltekit": "^8.6.7",
-    "@storybook/test": "^8.6.7",
     "@sveltejs/adapter-auto": "^4.0.0",
     "@sveltejs/kit": "^2.20.1",
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
