@@ -4,7 +4,7 @@
 const config = {
   "stories": [
     "../src/**/*.mdx",
-    "../src/**/*.stories.@(js|ts|svelte)"
+    "../src/stories/**/*.stories.@(js|ts|svelte)"
   ],
   "addons": [
   ],
