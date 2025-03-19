@@ -1,7 +1,8 @@
 {
   "name": "new-sveltekit-storybook",
-  "version": "0.0.1",
   "private": true,
+  "version": "0.0.1",
+  "type": "module",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -22,7 +23,6 @@
     "svelte": "^4.2.19",
     "vite": "^5.4.8"
   },
-  "type": "module",
   "engines": {
     "node": ">=20.9.0"
   }
