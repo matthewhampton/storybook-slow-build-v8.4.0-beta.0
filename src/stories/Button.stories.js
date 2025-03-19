@@ -1,5 +1,5 @@
-import Button from './ButtonPlain.svelte';
-// import Button from './ButtonBitsUI.svelte';
+// import Button from './ButtonPlain.svelte';
+import Button from './ButtonBitsUI.svelte';
 
 import { fn } from '@storybook/test';
 
