@@ -15,15 +15,12 @@
     "@storybook/blocks": "^8.1.6",
     "@storybook/svelte": "^8.1.6",
     "@storybook/sveltekit": "^8.1.6",
-    "@sveltejs/adapter-auto": "^3.2.1",
+    "@sveltejs/adapter-auto": "^4.0.0",
     "@sveltejs/kit": "^2.6.4",
     "@sveltejs/vite-plugin-svelte": "^3.1.2",
     "bits-ui": "^0.21.16",
     "storybook": "^8.1.6",
     "svelte": "^4.2.19",
     "vite": "^5.4.8"
-  },
-  "engines": {
-    "node": ">=20.9.0"
   }
 }
