@@ -3,15 +3,12 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "npm run -w packages/webcomponents build && dotenv vite dev",
-    "build": "npm run -w packages/webcomponents build && cross-env NODE_OPTIONS=--max-old-space-size=8192 vite build",
-    "build-sdk": "npm run -w packages/sdk build",
+    "dev": "vite dev",
+    "build": "vite build",
     "preview": "vite preview",
-    "test:unit": "vitest",
-    "swa": "dotenv swa start",
+    "prepare": "svelte-kit sync || echo ''",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "chromatic": "dotenv npx chromatic"
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
     "@storybook/blocks": "^8.1.6",
