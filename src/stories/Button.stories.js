@@ -1,4 +1,6 @@
-import Button from './Button.svelte';
+import Button from './ButtonPlain.svelte';
+// import Button from './ButtonBitsUI.svelte';
+
 import { fn } from '@storybook/test';
 
 export default {
@@ -10,5 +12,5 @@ export default {
 };
 
 export const Default = {
-  args: { label: 'Button' },
+  args: { label: 'Click Me' },
 };

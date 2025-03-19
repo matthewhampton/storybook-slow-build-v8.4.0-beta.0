@@ -1,6 +1,9 @@
 
 <script>
-    import Button from "../stories/Button.svelte"
+    import ButtonPlain from "../stories/ButtonPlain.svelte"
+    import ButtonBitsUI from "../stories/ButtonBitsUI.svelte"
 </script>
 
-<Button label="Click Me" onClick={()=>alert("Hello")}/>
+<ButtonPlain label="Click Me" onClick={()=>alert("Hello")}/>
+
+<ButtonBitsUI label="Click Me" onClick={()=>alert("Hello")}/>

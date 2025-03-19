@@ -1,4 +1,5 @@
 <script>
+
   /**
    * @typedef {Object} Props
    * @property {string} label Button contents
@@ -13,5 +14,5 @@
   type="button"
   onclick={onClick}
 >
-  {label}
+  {label} [plain]
 </button>
