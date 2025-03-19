@@ -13,7 +13,6 @@ const config = {
         "docs": false
       }
     },
-    "@storybook/addon-svelte-csf",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions"
   ],
