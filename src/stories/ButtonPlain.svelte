@@ -1,18 +1,12 @@
 <script>
 
-  /**
-   * @typedef {Object} Props
-   * @property {string} label Button contents
-   * @property {() => void} [onClick] The onclick event handler
-   */
-
-  /** @type {Props} */
-  const { label, onClick } = $props();
+    export let label
+    export let onClick
 </script>
 
 <button
   type="button"
-  onclick={onClick}
+  on:click={onClick}
 >
   {label} [plain]
 </button>
