@@ -73,15 +73,15 @@ Checkout `still-fast` to see it run the fast way it used to - in about 20secs (o
 ```
 PS C:\Users\Matt\git\new-sveltekit-storybook> git checkout still-fast
 Switched to branch 'still-fast'
-PS C:\Users\Matt\git\new-sveltekit-storybook> npm i
+PS C:\Users\Matt\git\new-sveltekit-storybook> npm i                  
 npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
 npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
 
-> new-sveltekit-storybook@0.0.1 prepare
+> storybook-slow-build-v8.4.0-beta.0@0.0.1 prepare
 > svelte-kit sync || echo ''
 
 
-added 2 packages, removed 8 packages, changed 9 packages, and audited 249 packages in 28s
+added 2 packages, removed 8 packages, changed 9 packages, and audited 249 packages in 5s
 
 65 packages are looking for funding
   run `npm fund` for details
@@ -92,9 +92,9 @@ To address all issues, run:
   npm audit fix --force
 
 Run `npm audit` for details.
-PS C:\Users\Matt\git\new-sveltekit-storybook> npm run build-storybook                                                                       
+PS C:\Users\Matt\git\new-sveltekit-storybook> npm run build-storybook
 
-> new-sveltekit-storybook@0.0.1 build-storybook
+> storybook-slow-build-v8.4.0-beta.0@0.0.1 build-storybook
 > storybook build
 
 @storybook/core v8.4.0-alpha.8
@@ -102,11 +102,11 @@ PS C:\Users\Matt\git\new-sveltekit-storybook> npm run build-storybook
 info => Cleaning outputDir: storybook-static
 info => Loading presets
 info => Building manager..
-info => Manager built (110 ms)
+info => Manager built (106 ms)
 info => Building preview..
 WARN No story files found for the specified pattern: src\**\*.mdx
 vite v5.4.8 building for production...
-transforming (15) node_modules\svelte\src\runtime\index.js17:46:10 [vite-plugin-svelte] C:/Users/Matt/git/new-sveltekit-storybook/node_modules/@storybook/svelte/dist/components/PreviewRender.svelte:9:13 PreviewRender has unused export property 'storyContext'. If it is for external reference only, please consider using `export const storyContext`
+transforming (10) node_modules\@storybook\sveltekit\dist\chunk-REI2Y3HY.mjs17:54:48 [vite-plugin-svelte] C:/Users/Matt/git/new-sveltekit-storybook/node_modules/@storybook/svelte/dist/components/PreviewRender.svelte:9:13 PreviewRender has unused export property 'storyContext'. If it is for external reference only, please consider using `export const storyContext`
  7:   export let storyFn;
  8:   export let showError;
  9:   export let storyContext;
@@ -129,8 +129,7 @@ storybook-static/assets/Button.stories-Csc6by0x.js  980.36 kB │ gzip: 166.49 k
 - Using dynamic import() to code-split the application
 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
-✓ built in 16.14s
-info => Preview built (18 s)
+✓ built in 15.21s
+info => Preview built (17 s)
 info => Output directory: C:\Users\Matt\git\new-sveltekit-storybook\storybook-static
-
 ```
