@@ -11,6 +11,10 @@ const config = {
   "framework": {
     "name": "@storybook/sveltekit",
     "options": {}
+  },
+  viteFinal: (config) => {
+    config.optimizeDeps = { ...config.optimizeDeps, include: [...(config.optimizeDeps?.include || []), 'bits-ui'] };
+    return config;
   }
 };
 export default config;
