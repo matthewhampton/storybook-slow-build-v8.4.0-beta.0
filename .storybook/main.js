@@ -13,7 +13,7 @@ const config = {
     "options": {}
   },
   viteFinal: (config) => {
-    config.optimizeDeps = { ...config.optimizeDeps, include: [...(config.optimizeDeps?.include || []), 'bits-ui'] };
+    config.optimizeDeps = { ...config.optimizeDeps, exclude: [...(config.optimizeDeps?.exclude || []), 'bits-ui'] };
     return config;
   }
 };
